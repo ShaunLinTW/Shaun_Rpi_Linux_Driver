@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/pisces/Downloads/Raspberry_Pi/Shaun_Rpi_Linux_Driver/01_simple_LKM",
+      "program": "/Users/pisces/Downloads/Raspberry_Pi/Shaun_Rpi_Linux_Driver/01_simple_LKM/build/Debug/outDebug"
+    }
+  ]
+}
