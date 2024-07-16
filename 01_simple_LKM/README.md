@@ -8,7 +8,7 @@ make
 
 Insert the module into the kernel:
 ~~~~~
-insmod mymodule.ko
+sudo insmod mymodule.ko
 
 ~~~~~
 
@@ -20,6 +20,6 @@ dmesg | tail
 
 Remove the module from the kernel:
 ~~~~~
-rmmode mymodule
+sudo rmmode mymodule
 
 ~~~~~
