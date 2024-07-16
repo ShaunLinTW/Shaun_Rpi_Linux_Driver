@@ -8,10 +8,18 @@ MODULE_AUTHOR("Shaun Lin TW");
 MODULE_DESCRIPTION("Register a device nr. and implement some callback functions");
 
 /**
- * @brief This function is called, when the devide file is opened
+ * @brief This function is called, when the device file is opened
  */
 static int driver_open(struct inode *device_file, struct file *instance) {
 	printk("dev_nr - open was called!\n");
+	return 0;
+}
+
+/**
+ * @brief This function is called, when the device file is closed
+ */
+static int driver_close(struct inode *device_file, struct file *instance) {
+	printk("dev_nr - close was called!\n");
 	return 0;
 }
 
